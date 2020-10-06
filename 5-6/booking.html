@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="width:100%;margin-top:100px">
+        <form action="" style="width:50%; margin:0 auto">
+            <div style="display:flex;margin: 10px">
+                <div style="flex-grow:1;">
+                    <label for="flying from">Flying from:</label>
+                        <select id="flying" name="flying">
+                            <option value="Bangkok">Bangkok</option>
+                            <option value="Krabi">Krabi</option>
+                            <option value="Phuket">Phuket</option>
+                            <option value="Chiangmai">Chiangmai</option>
+                        </select>
+                </div>
+                <div style="flex-grow:1;">
+                    <label for="to">To</label>
+                    <select id="flying_to" name="flying_to">
+                        <option value="Bangkok">Bangkok</option>
+                        <option value="Krabi">Krabi</option>
+                        <option value="Phuket">Phuket</option>
+                        <option value="Chiangmai">Chiangmai</option>
+                    </select>
+                </div>
+            </div>
+
+            <div style="display:flex;margin: 10px">
+                <div style="flex-grow:1;">
+                    <label for="Departing">Departing:</label>
+                    <input type="date" id="Departing" name="Departing">
+                </div>
+                <div style="flex-grow:1;">
+                    <label for="Returning">Returning:</label>
+                    <input type="date" id="Returning" name="Returning">
+                </div>
+            </div>
+            <div style="display:flex;margin: 10px">
+                <div style="flex-grow:1;">
+                    <label for="Adult">Adult:</label>
+                    <input style="width:30px" type="number" id="Adult" name="Adult" min="1">
+                </div>
+                <div style="flex-grow:1;">
+                    <label for="Child">Child:</label>
+                    <input style="width:30px" type="number" id="Child" name="Child" min="0">
+                </div>
+                <div style="flex-grow:1;">
+                    <label for="Infant">Infant:</label>
+                    <input style="width:30px" type="number" id="Infant" name="Infant" min="0">
+                </div>
+                <div style="flex-grow:1;">
+                    <label for="Currency" style="color:red">Currency:</label>
+                    <select id="Currency" name="Currency">
+                        <option value="PKR">PKR</option>
+                        <option value="THB">THB</option>
+                        <option value="MKO">MKO</option>
+                        <option value="EUR">EUR</option>
+                    </select>
+                </div>
+            </div>
+                <input style="background-color:red" type="submit">
+        </form>
+    </div>
+</body>
+</html>
